@@ -1,0 +1,39 @@
+body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+
+}
+.btnLogout{
+    width: 50px;
+    background-color: burlywood;
+}
+tr{
+    height: 50px;
+}
+td{
+    text-align: center;
+    border: 1px dotted black;
+}
+.id, .status{
+    width: 100px;
+}
+.name, .email, .phone, .pass, .desc{
+    width: 200px;
+}
+.form-info{
+    display: flex;
+    flex-direction: column;
+}
+.form-content{
+    display: flex;
+    justify-content: space-around;
+}
